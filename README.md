@@ -1,5 +1,3 @@
-# ParetoPrincipleChronicle
-
 # Pareto Principle in Software Contributions  
 **Researcher:** Aditi More
 **GitHub Username:** aaditi2
