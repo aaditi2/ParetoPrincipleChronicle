@@ -1,14 +1,56 @@
-# Pareto Principle in Software Contributions  
-**Researcher:** Aditi More
-**GitHub Username:** aaditi2
+# Investigating the Pareto Principle in Student Software Engineering Team Projects
 
-## Abstract  
-### **General Research Problem**  
-The **Pareto Principle (80/20 Rule)** suggests that **80% of outcomes result from 20% of efforts**. In software engineering, this might mean that **20% of contributors produce 80% of the work**. However, is this true in student software projects and team-based repositories? This research investigates the distribution of contributions among team members using historical project data.
+📄 Companion code and anonymized dataset for the paper:
 
-### **Primary Research Questions**  
-1. Does the **Pareto Principle hold true** in software engineering team contributions?  
-2. How does **contribution consistency** compare to overall contribution volume?  
-3. Are certain types of contributions (e.g., code commits, issue tracking, PR reviews) more **disproportionately distributed** than others?  
+> **Aditi More, Kevin Buffardi**  
+> *Investigating the Pareto Principle in Student Software Engineering Team Projects*  
+> Proceedings of the **Hawaii International Conference on System Sciences (HICSS-59)**, 2025  
 
-This research aims to **quantify and visualize contribution disparities** using GitHub activity data, providing insights into team dynamics and equity in software engineering projects.
+---
+
+## 📖 Abstract
+The **Pareto principle (80/20 rule)** has been widely observed in professional and open-source software projects, where ~20% of contributors account for ~80% of outcomes.
+
+This study investigates whether that principle applies to **student software engineering teams**. Using GitHub activity data from **94 teams (465 students)** across ten semesters, we analyzed contribution inequality with the **Hoover index** and **Lorenz curve**.
+
+**Key findings:**
+- Only **6 of 94 teams (6.4%)** matched the 80/20 Pareto distribution.  
+- Most teams showed **more balanced contribution patterns**.  
+- Academic factors (grading incentives, peer review, team scaffolding) likely mitigated contribution inequality.  
+- Inferential statistics (Mann–Whitney U, Spearman correlation) confirmed significant differences between Pareto and non-Pareto groups.  
+
+---
+
+## 🚀 Reproducibility
+
+<details>
+<summary>Click to view instructions</summary>
+
+### Requirements
+```bash
+pip install pandas numpy matplotlib seaborn scipy 
+```
+Steps
+
+1. Clone this repository:
+```bash
+git clone https://github.com/aaditi2/ParetoPrincipleChronicle.git
+cd pareto-analysis
+```
+2. Open Pareto.ipynb in Jupyter Notebook or VS Code or Colab.
+
+3. If you are using Colab, ensure data is uploaded.
+
+4. Run all cells in the notebook to reproduce the results.
+
+</details>
+
+---
+
+##  Authors  
+
+
+- **Aditi More** – California State University, Chico – [anmore@csuchico.edu](mailto:anmore@csuchico.edu)  
+- **Kevin Buffardi** – California State University, Chico – [kbuffardi@csuchico.edu](mailto:kbuffardi@csuchico.edu)  
+
+
